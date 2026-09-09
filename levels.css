@@ -11,3 +11,19 @@
     grid-column: 3/1;
   }
 }
+
+#level-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  .onions {
+    grid-column: 2 / span 4;
+  }
+  .tomatoes {
+    grid-column: 1 / span 2;
+  }
+  .carrots {
+    grid-column: 2/1;
+    grid-column: 1 / -1;
+  }
+}
