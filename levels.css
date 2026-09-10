@@ -101,9 +101,7 @@
   }
 }
 
-/*
 #level-7 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(5ch, 1fr));
 }
-  */
